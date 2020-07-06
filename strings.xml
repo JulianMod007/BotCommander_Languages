@@ -3,9 +3,9 @@
 
     <string-array name="helpTitle">
 
-        <item>"Creating the Bot"</item>
-        <item>"Command Keywords"</item>
-        <item>"Optimizing Bot Usage"</item>
+        <item>"Erstellen eines Bots"</item>
+        <item>"Befehl Schlüsselwörter"</item>
+        <item>"Optimierung der Bot-Nutzung"</item>
 
     </string-array>
 
@@ -40,32 +40,32 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     </string-array>
 
     <string-array name="tabs">
-        <item>Help Home</item>
-        <item>Commands</item>
-        <item>Keywords</item>
-        <item>Creating Bot</item>
+        <item>Hilfe Menü</item>
+        <item>Befehle</item>
+        <item>Schlüsselwörter</item>
+        <item>Erstelle einen Bot</item>
         <item>Tutorials</item>
     </string-array>
 
     <string-array name="commandTypes">
 
-        <item>Message Receive</item>
-        <item>Private Message</item>
-        <item>Member Join</item>
-        <item>Member Leave</item>
-        <item>Member Ban</item>
-        <item>Reaction Add</item>
+        <item>Nachricht senden</item>
+        <item>Private Nachricht</item>
+        <item>Nutzer joint</item>
+        <item>Nutzer verlässt</item>
+        <item>Nutzer bannen</item>
+        <item>Reqktion hinzufügen</item>
 
     </string-array>
 
-    <string-array name="activities">
-        <item>Playing</item>
-        <item>Streaming</item>
-        <item>Listening</item>
-        <item>Watching</item>
+    <string-array name="Status">
+        <item>Spielt</item>
+        <item>Streamt</item>
+        <item>Hört...zu</item>
+        <item>Schaut</item>
     </string-array>
 
-    <string-array name="about">
+    <string-array name="Über uns">
         <item>Version 1.8</item>
         <item>Open source licenses</item>
     </string-array>
@@ -85,14 +85,14 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
     </string-array>
 
     <string-array name="themeEntryArray">
-        <item>light</item>
-        <item>dark</item>
-        <item>default</item>
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>Standard</item>
     </string-array>
 
     <string name="apache_2_0">
-                                Apache License\n
-                           Version 2.0, January 2004\n
+                                Apache Lizenz
+                           Version 2.0, Januar 2004\n
                         http://www.apache.org/licenses/\n\n
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION\n\n
@@ -311,147 +311,147 @@ $serverCreateTime (Not compatible with pm received) - Gives the time the server 
  </string>
 
     <string name="choose_command_type">Choose Command Type</string>
-    <string name="command">Command</string>
-    <string name="example">!example</string>
-    <string name="command_description">Command Description</string>
+    <string name="command">Befehl</string>
+    <string name="example">!Beispiel</string>
+    <string name="channel_description">Befehehl Beschreibung</string>
     <string name="sends_a_message">Sends a Message</string>
-    <string name="send_channel_message">Send Channel Message</string>
-    <string name="channel_message">Channel Message</string>
-    <string name="actions">Actions</string>
-    <string name="hello_world">Hello World</string>
-    <string name="send_private_message">Send Private Message</string>
-    <string name="private_message">Private Message</string>
-    <string name="hello_name">Hello $name</string>
-    <string name="for_more_information">More information</string>
+    <string name="send_channel_message">Sende eine Nachricht in den Kanal</string>
+    <string name="channel_message">Kanal Nachricht</string>
+    <string name="actions">Aktionen</string>
+    <string name="hello_world">Hallo Welt</string>
+    <string name="send_private_message">Sende eine private Nachricht</string>
+    <string name="private_message">Private Nachricht</string>
+    <string name="hello_name">Hallo $name</string>
+    <string name="for_more_information">Mehr Informationen</string>
     <string name="status_offline">Status: Offline</string>
-    <string name="host">Host</string>
+    <string name="host">Hosting</string>
     <string name="bot_token">Bot Token</string>
-    <string name="logout">Logout</string>
-    <string name="bot_avatar_when_hosting">Bot avatar when hosting.</string>
-    <string name="currently_hosting">Currently Hosting</string>
-    <string name="notif_action_stop">STOP</string>
-    <string name="logging_in">Logging in…</string>
-    <string name="invalid_token">Invalid Token</string>
-    <string name="invalid_args">```ERROR: MAX MUST BE LARGER THAN MIN.```</string>
-    <string name="invalid_nums">```ERROR: MIN AND/OR MAX NOT A NUMBER```</string>
-    <string name="undo">Undo</string>
-    <string name="config_remove">Configuration Removed</string>
-    <string name="command_remove">Command Removed</string>
-    <string name="config_saved">Command Configuration Saved</string>
-    <string name="message_require_for_action_channel">Message is required for action Channel Message</string>
-    <string name="message_require_for_action_private">Message is required for action Private Message</string>
-    <string name="command_required_for_type_channel">Command field is required for type Channel Message</string>
-    <string name="command_required_for_type_private">Command field is required for type Private Message</string>
-    <string name="command_required">Command description is required</string>
-    <string name="action_required">At least one action is required</string>
-    <string name="switch_to_basic">Switch to Basic</string>
-    <string name="enter_a_token">Please Enter A Token</string>
-    <string name="not_logged_in">Not Logged In</string>
-    <string name="hosting_already">Hosting Already</string>
-    <string name="no_internet">No Internet Connection</string>
+    <string name="logout">Abmelden</string>
+    <string name="bot_avatar_when_hosting">Bot Profilbild wenn gehostet.</string>
+    <string name="currently_hosting">Der Bot wird aktuell gehostet</string>
+    <string name="notif_action_stop">STOPP</string>
+    <string name="logging_in">Wird eingeloggt...</string>
+    <string name="invalid_token">Ungültiger Token</string>
+    <string name="invalid_args">```FEHLER: DER MAXIMALE WERT MUSS HÖHER SEIN, ALS DER MINIMALE.```</string>
+    <string name="invalid_nums">```FEHLER: MIN UND / ODER MAX IST KEINE NUMMER```</string>
+    <string name="undo">Rückgängig machen</string>
+    <string name="config_remove">Konfiguration entfernt</string>
+    <string name="command_remove">Befehl entfernt</string>
+    <string name="config_saved">Befehl Bearbeitung gespeichert!</string>
+    <string name="message_require_for_action_channel">Nachricht ist für die Aktion Kanalnachricht erforderlich</string>
+    <string name="message_require_for_action_private">Für die Aktion Private Nachricht ist eine Nachricht erforderlich</string>
+    <string name="command_required_for_type_channel">Für den Typ Channel Message ist ein Befehlsfeld erforderlich</string>
+    <string name="command_required_for_type_private">Für den Typ Private Nachricht ist ein Befehlsfeld erforderlich</string>
+    <string name="command_required">Befehl Beschreibung ist erforderlich</string>
+    <string name="action_required">Es ist mindestens eine Aktion erforderlich</string>
+    <string name="switch_to_basic">Wechseln Sie zu Basic</string>
+    <string name="enter_a_token">Bitte geben Sie einen Token ein</string>
+    <string name="not_logged_in">Nicht eingeloggt</string>
+    <string name="hosting_already">Bereits gehostet</string>
+    <string name="no_internet">Wir konnten keine Internet Verbindung aufbauen</string>
     <string name="status_online">Status: Online</string>
-    <string name="phrase">Phrase (Can appear anywhere in a message)</string>
-    <string name="icon_of_command_type">Icon of command type</string>
-    <string name="configuration_name">Configuration Name</string>
+    <string name="phrase">Phrase (Kann überall in einer Nachricht erscheinen)</string>
+    <string name="icon_of_command_type">Symbol des Befehlstyps</string>
+    <string name="configuration_name">Konfigurationsname</string>
     <string name="status">Status</string>
-    <string name="save">Save</string>
-    <string name="save_button">Save button</string>
-    <string name="open_in_browser">Open in Browser</string>
-    <string name="home">Home</string>
-    <string name="commands">Commands</string>
-    <string name="help">Help</string>
-    <string name="bot_configurations">Bot Configurations</string>
-    <string name="set_status">Set Status</string>
-    <string name="settings">Settings</string>
-    <string name="about">About</string>
+    <string name="save">Speichern</string>
+    <string name="save_button">Speichern Button</string>
+    <string name="open_in_browser">Im Browser öffnen</string>
+    <string name="home">Startseite</string>
+    <string name="commands">Befehle</string>
+    <string name="help">Hilfe</string>
+    <string name="bot_configurations">Bot Einstellungen</string>
+    <string name="set_status">Setze den Status auf...</string>
+    <string name="settings">Einstellungen</string>
+    <string name="about">Über uns</string>
     <string name="moderation">Moderation</string>
-    <string name="kick">Kick (requires mention after command)</string>
-    <string name="ban">Ban (requires mention after command)</string>
-    <string name="voice_mute">Voice Mute (requires mention after command)</string>
+    <string name="kick">Kick (benötigt eine Erwähnung hinter dem Befehl)</string>
+    <string name="ban">Ban (muss nach dem Befehl erwähnt werden)</string>
+    <string name="voice_mute">Voice Mute (Benötigt eine Erwähnung nach dem Befehl)</string>
     <string name="text_mute">Text Mute</string>
-    <string name="home_hint">Commands ADDED or EDITED after hosting won\'t work until you REHOST</string>
-    <string name="connecting">Status: Connecting</string>
-    <string name="swipe_right_to_delete_commands">Swipe right to delete commands.</string>
-    <string name="hide">HIDE</string>
-    <string name="assign_remove_role">Assign/Remove Role</string>
-    <string name="role_name">Role Name</string>
-    <string name="send_channel_message_embed">Send Channel Message Embed</string>
-    <string name="title">Title</string>
-    <string name="description">Description</string>
-    <string name="footer">Footer</string>
-    <string name="image_url">Image URL</string>
+    <string name="home_hint">Befehle, die nach dem Hosting hinzugefügt oder bearbeitet wurden, funktionieren erst, wenn Sie REHOSTEN</string>
+    <string name="connecting">Status: Wird verbunden...</string>
+    <string name="swipe_right_to_delete_commands">Wische nach rechts um Befehle zu löschen.</string>
+    <string name="hide">Ausblenden</string>
+    <string name="assign_remove_role">Rolle zuweisen / entfernen</string>
+    <string name="role_name">Name der Rolle</string>
+    <string name="send_channel_message_embed">Sende eine eingebettete Nachricht in einen Kanal</string>
+    <string name="title">Titel</string>
+    <string name="description">Beschreibung</string>
+    <string name="footer">Fusszeile</string>
+    <string name="image_url">Bild URL</string>
     <string name="thumbnail_url">Thumbnail URL</string>
-    <string name="send_private_message_embed">Send Private Message Embed</string>
-    <string name="react_to_received_message">React to received message.</string>
+    <string name="send_private_message_embed">Sende eine private eingebettete Nachricht</string>
+    <string name="react_to_received_message">Reagiere auf die gesendete Nachricht</string>
     <string name="emote">Emote</string>
-    <string name="requires_role">Requires Role</string>
-    <string name="send_in_specific_channel">Send in specific channel</string>
+    <string name="requires_role">Rolle benötigt:</string>
+    <string name="send_in_specific_channel">Sende in einen benutzerdefinierten Kanal</string>
     <string name="channel_name">Channel Name</string>
-    <string name="ignore_error_messages">Ignore error messages</string>
-    <string name="require_specific_message_id">Require specific message ID</string>
-    <string name="message_id">Message ID</string>
-    <string name="nsfw_only">NSFW only</string>
+    <string name="ignore_error_messages">Ignoriere Fehlermeldungen</string>
+    <string name="require_specific_message_id">Bestimmte Nachrichten-ID erforderlich</string>
+    <string name="message_id">Nachricht ID</string>
+    <string name="nsfw_only">Nur für NSFW</string>
     <string name="_1_99">1-99</string>
-    <string name="delete_x_messages">Delete X messages</string>
-    <string name="delete_command_message_after">Delete command message after</string>
-    <string name="word1_word2_word3">word1|word2|word3</string>
-    <string name="delete_if_contains">Delete if contains</string>
-    <string name="response_error_code">Response Error Code </string>
-    <string name="requires_role_error">requires role: </string>
-    <string name="no_user_mentioned">```No user mentioned.```</string>
-    <string name="no_kick_perms">```You don\'t have kick permissions.```</string>
-    <string name="no_ban_perms">```You don\'t have ban permissions.```</string>
-    <string name="no_voice_perms">```You don\'t have voice mute permissions```</string>
-    <string name="invalid_image_url">```Invalid Image or Thumbnail URL```</string>
-    <string name="fatal_eval_error">```fatal error: $eval never ended with $halt```</string>
-    <string name="set_error">```set error </string>
-    <string name="set_usage_error">```Incorrect set usage```</string>
-    <string name="get_error">```get error </string>
-    <string name="get_usage_error">```Incorrect get usage```</string>
-    <string name="delete_x_requirement">Delete X value field must have a number of 0 to 99</string>
-    <string name="embed_requirement">Can\'t send empty embed</string>
-    <string name="go_back">Go Back?</string>
-    <string name="go_back_warn">Going back will remove any work done on this command.</string>
-    <string name="confirm">Confirm</string>
-    <string name="cancel">Cancel</string>
-    <string name="help_message">Command types are what is done by a user to trigger the command.\nMessage Receive happens when a user sent a message in server.\nPrivate Message is that a private message was received by user.\nMember leave, join, and ban all happen when a user does one of those things.\nReaction Add is when a reaction is added by a user to a message in a server.\n\nCommand is what the user has to send for the bot to react to these types for the actions to occur.\n\nActions are what is done by the bot when the event is triggered by a user.</string>
+    <string name="delete_x_messages">Lösche X Nachrichten</string>
+    <string name="delete_command_message_after">Lösche danach die Befehlsnachricht</string>
+    <string name="word1_word2_word3">Wort1|Wort2|Wort3</string>
+    <string name="delete_if_contains">Lösche wenn enthält</string>
+    <string name="response_error_code">Antwortfehlercode </string>
+    <string name="requires_role_error">Benötigt Rolle: </string>
+    <string name="no_user_mentioned">```Es wurde kein Nutzer erwähnt.```</string>
+    <string name="no_kick_perms">```Du hast keine Kick Berechtigung.```</string>
+    <string name="no_ban_perms">```Du hast keine Ban Berechtigung.```</string>
+    <string name="no_voice_perms">```Du hast keine Voice Mute Berechtigung```</string>
+    <string name="invalid_image_url">```Falscher Bild oder Thumbnail URL```</string>
+    <string name="fatal_eval_error">```Fataler Fehler: $eval endet niemals mit $halt```</string>
+    <string name="set_error">```Setze Fehler </string>
+    <string name="set_usage_error">```Falsche Set-Verwendung```</string>
+    <string name="get_error">```Fehler bekommen </string>
+    <string name="get_usage_error">```Falsche Verwendung```</string>
+    <string name="delete_x_requirement">Lösche X Nachrichten muss eine Zahl von 0 bis 99 enthalten.</string>
+    <string name="embed_requirement">Es kann keine leere Nachricht gesendet werden!</string>
+    <string name="go_back">Verlassen?</string>
+    <string name="go_back_warn">Wenn Sie diese Anwendung verlassen wird ihr Befehl NICHT GESPEICHERT!</string>
+    <string name="confirm">Verstanden. Ich akzeptiere.</string>
+    <string name="cancel">Verlassen!</string>
+    <string name="help_message">Befehlstypen werden von einem Benutzer ausgeführt, um den Befehl auszulösen. \ Nachrichtenempfang erfolgt, wenn ein Benutzer eine Nachricht auf dem Server gesendet hat. \ nPrivate Nachricht ist, dass eine private Nachricht vom Benutzer empfangen wurde. \ Member 
     <string name="ok">OK</string>
     <string name="tutorials">Tutorials</string>
-    <string name="more_help">More Help</string>
-    <string name="home_message">Here is where you put your bot token given by Discord to host the bot. Commands must be added before hosting and changes to commands while hosting will only be seen when the bot is rehosted.</string>
-    <string name="error_occured">Error occurred</string>
-    <string name="something_error">Something happened loading bot, bot may still be up</string>
-    <string name="channel_message_out">Channel Message: </string>
+    <string name="more_help">Mehr Hilfe</string>
+    <string name = "home_message"> Hier legen Sie Ihr von Discord gegebenes Bot-Token ab, um den Bot zu hosten. Befehle müssen vor dem Hosting hinzugefügt werden und Änderungen an Befehlen während des Hostings werden nur angezeigt, wenn
+    <string name="error_occured">Ein Fehler ist aufgetreten</string>
+    <string name="something_error">Beim Laden des Bots ist etwas passiert. Möglicherweise ist der Bot noch aktiv.</string>
+    <string name="channel_message_out">Kanal Nachricht: </string>
     <string name="pm_out">PM: </string>
-    <string name="kick_out">Kicks user.</string>
-    <string name="ban_out">Bans user.</string>
-    <string name="voice_out">Voice mutes user.</string>
-    <string name="role_assign_out">Role Assign/Remove: </string>
-    <string name="channel_embed_out">Sends Channel Embed.</string>
-    <string name="private_embed_out">Sends Private Embed.</string>
-    <string name="react_out">Reacts: </string>
-    <string name="role_require_out">Requires Role: </string>
-    <string name="specific_channel_out">Sends in channel: </string>
-    <string name="require_message_id_out">Requires message ID: </string>
-    <string name="delete_x_out">Deletes </string>
-    <string name="delete_x_message_out"> messages</string>
-    <string name="delete_command_after_out">Deletes command message after</string>
-    <string name="delete_contains_out">Deletes if contains:</string>
-    <string name="is_nsfw_out">Is NSFW</string>
-    <string name="output">Output</string>
-    <string name="member_ban">Member Ban</string>
-    <string name="member_join">Member Join</string>
-    <string name="member_leave">Member Leave</string>
-    <string name="load_configuration">Load Configuration?</string>
-    <string name="load_configuration_hint">Loading a configuration will not save your current configuration. All changes in the currently loaded configuration will be lost. Do you want to load this configuration?</string>
-    <string name="load">Load</string>
-    <string name="command_list">Command List</string>
-    <string name="command_list_hint">This is the command list, press the floating action button to add a command. When commands are added you can edit by pressing them, and delete them by swiping them right.</string>
-    <string name="command_count">Commands: </string>
-    <string name="choose_configuration_name">Choose configuration name</string>
-    <string name="no_commands_hint">No commands to make configuration.</string>
-    <string name="status_error">Can\'t have a status of no length!</string>
-    <string name="set">Set</string>
+    <string name="kick_out">Kickt einen Nutzer.</string>
+    <string name="ban_out">Bant einen Nutzer.</string>
+    <string name="voice_out">Schaltet einen Benutzer stumm</string>
+    <string name="role_assign_out">Rolle zuordnen.</string>
+    <string name="channel_embed_out">Sendet eine eingebettete Kanal Nachricht.</string>
+    <string name="private_embed_out">Sendet eine private (eingebettete) Nachricht.</string>
+    <string name="react_out">Reaktionen: </string>
+    <string name="role_require_out">Benötigt Rolle: </string>
+    <string name="specific_channel_out">Sendet in Kanal: </string>
+    <string name="require_message_id_out">Benötigt Nachricht ID: </string>
+    <string name="delete_x_out">Löscht </string>
+    <string name="delete_x_message_out"> Nachrichten</string>
+    <string name="delete_command_after_out">Löscht hinterher den Befehl</string>
+    <string name="delete_contains_out">Lösche ... wenn sie ... enthält:</string>
+    <string name="is_nsfw_out">Ist NSFW</string>
+    <string name="output">Ausgabe</string>
+    <string name="member_ban">Nutzer bannen</string>
+    <string name="member_join">Nutzer beitreten</string>
+    <string name="member_leave">Nutzer verlassen</string>
+    <string name="load_configuration">Lädt die Einstellung?</string>
+    <string name="load_configuration_hint">Durch das Laden einer Konfiguration wird Ihre aktuelle Konfiguration nicht gespeichert. Alle Änderungen in der aktuell geladenen Konfiguration gehen verloren. Möchten Sie diese Konfiguration laden?</string>
+    <string name="load">Laden</string>
+    <string name="command_list">Befehlsliste</string>
+    <string name="command_list_hint">Dies ist die Befehlsliste. Drücken Sie die schwebende Aktionstaste, um einen Befehl hinzuzufügen. Wenn Befehle hinzugefügt werden, können Sie sie durch Drücken bearbeiten und durch Wischen nach rechts löschen.</string>
+    <string name="command_count">Befehle: </string>
+    <string name="choose_configuration_name">Wählen Sie den Konfigurationsnamen</string>
+    <string name="no_commands_hint">Keine Befehle zum Konfigurieren.</string>
+    <string name="status_error">Es gibt keinen leeren Status :)</string>
+    <string name="set">Setze</string>
 
 
 </resources>
